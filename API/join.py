@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "https://registry.production.xxx.com/service/rest/v1/components?repository=docker"
+url = "https://xx.xx.xxx.com/service/rest/v1/components?repository=docker"
 response = requests.get(url)
 dict = response.json()
 token = dict.get("continuationToken")

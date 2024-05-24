@@ -1,6 +1,6 @@
 import requests
 
-response = requests.get("https://registry.production.xxx.com/service/rest/v1/components?repository=docker")
+response = requests.get("https://xx.xx.xxx.com/service/rest/v1/components?repository=docker")
 #print(type(response.json())) #dictionary
 
 dict = response.json()
